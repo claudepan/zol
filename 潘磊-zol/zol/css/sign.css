@@ -1,0 +1,62 @@
+.sign_top{
+	width: 990px;
+    margin: 0 auto;
+}
+/*--------------------*/
+.sign_main{
+	padding: 0 0 100px;
+    border: 1px solid #e6e6e6;
+    width: 980px;
+    margin: auto;
+}
+.sign_title{
+	padding: 16px 0 16px 90px;
+    background: #fafafa;
+    font: 18px/28px "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1";
+    color: #999;
+}
+/*--------------------*/
+.sign_left{
+	float: left;
+    padding: 30px 0 0 89px;
+    width: 500px;
+}
+.sign_ul{
+	height: 39px;
+    border-bottom: 1px solid #e6e6e6;
+    clear: both;
+}
+.sign_li{
+	margin: 0 -1px -1px;
+    padding: 0 0 2px;
+    background: #fff;
+    cursor: default;
+    float: left;
+    position: relative;
+    width: 250px;
+    border: 1px solid #e6e6e6;
+    border-bottom: 0 none;
+    text-align: center;
+}
+.sign_ul .sign_li{
+	border-top: 2px solid #e02d2d;
+}
+.sign_1{
+	color: #c00;
+    line-height: 36px;
+    display: inline-block;
+    font: 18px/38px "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1";
+}
+.sign_1 img{
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+}
+/*--------------------*/
+.sign_right{
+	float: right;
+    margin: 30px 0 0;
+    padding: 0 80px 0 25px;
+    width: 170px;
+    border-left: 1px solid #f5f5f5;
+}

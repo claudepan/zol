@@ -1,0 +1,260 @@
+body{
+	background: #fafafa;
+}
+input{
+	border: none;
+	outline: none;
+}
+/*-------------------------*/
+.login_main{
+	width: 990px;
+    margin: 0 auto;
+}
+.login_top{
+	padding: 20px 0;
+	padding-top: 14px;
+	overflow: hidden;
+}
+.log_tl{
+	float: left;
+}
+.log_tl a{
+	color: #666666;;
+}
+.log_tl img{
+	float: left;   
+}
+.log_tl span{
+	float: left;
+    margin: 8px 0 0 8px;
+    padding-left: 10px;
+    font: 14px/44px simsun;
+    color: #666;
+    border-left: 1px solid #e6e6e6;
+    cursor: pointer;
+    display: block;
+}
+/*-------------------------*/
+.log_tr{
+	float: right;
+	padding: 21px 0 0;
+    font-size: 14px;
+    line-height: 22px;
+}
+.log_tr p{
+	float: left;
+}
+.log_tr a{
+	float: left;
+	height: 16px;
+    padding: 0 10px;
+    color: #c00;
+}
+/*-------------------------*/
+.login_bottom{
+	margin: 30px 0 0;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    overflow: hidden;
+}
+.log_ad{
+	float: left;
+}
+/*-------------------------*/
+.log_login{
+	float: right;
+    padding: 0 85px 0 0;
+    width: 290px;
+}
+.log_1{
+	position: relative;
+    padding: 20px 0 0;
+}
+.log_1 a img{
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	padding-right: 5px ;
+}
+.log_1 a{
+	float: right;
+    padding: 0 0 0 17px;
+    color: #333;
+    line-height: 28px;
+    font-size: 12px;
+}
+.log_1 h3{
+    height: 28px;
+    font-size: 18px;
+    color: #666;
+    line-height: 28px;	
+}
+.log_1 a:hover{
+	color: #E02D2D;
+	text-decoration: underline;
+}
+/*-------------------------*/
+.log_2{
+	padding: 30px 0 0;
+    position: relative;
+}
+.log_username{
+	margin: 0 0 10px;
+	position: relative;
+    padding: 8px 5px;
+    height: 22px;
+    border: 1px solid #ccc;
+    line-height: 22px;
+}
+.log_password{
+	margin: 0 0 10px;
+	position: relative;
+    padding: 8px 5px;
+    height: 22px;
+    border: 1px solid #ccc;
+    line-height: 22px;
+}
+/*-------------------------*/
+.log_wjmm{
+	float: right;
+	font-size: 12px;
+	overflow: hidden;
+	padding-bottom: 17px;
+}
+.log_wjmm:hover a{
+	text-decoration: underline;
+	color: #E02D2D;
+}
+/*-------------------------*/
+.log_button{
+	cursor: pointer;
+	clear: both;
+}
+.log_button input{
+	background: #E02D2D;
+	display: block;
+    margin: 0 0 10px;
+    width: 290px;
+    height: 40px;
+    font: bold 14px/40px "Arial";
+    color: #fff;
+    text-align: center;
+    border: 0 none;
+    cursor: pointer;
+}
+/*-------------------------*/
+.log_hezuo{
+	width: 290px;
+    text-align: center;
+    margin-top: 15px;
+    color: #666666;
+}
+.xian1,.xian2{
+	float: left;
+    height: 1px;
+    background: #f0f0f0;
+    width: 100px;
+    margin-top: 7px;
+}
+.log_hezuo p{
+	float: left;
+	font-size: 12px;
+}
+.xian1{
+	margin-right: 9px;
+}
+.xian2{
+	margin-left: 9px;
+}
+/*------------第三方登陆-------------*/
+.log_sanfang{
+	margin: 10px 0 0;
+	clear: both;
+}
+.weixin{
+	background: url(../img/icon/bgs2.png) no-repeat;
+	float: left;
+    margin: 16px 12px 0 25px;
+    width: 38px;
+    height: 38px;
+    overflow: hidden;
+}
+.weixin:hover{
+	background-position: 0 -38px;
+}
+.weibo{
+	background: url(../img/icon/bg.png) 0 -82px no-repeat;
+	float: left;
+    margin: 16px 12px 0 0;
+    width: 38px;
+    height: 38px;
+    overflow: hidden;
+}
+.weibo:hover{
+	background-position: 0 -121px;
+}
+.qq{
+	background: url(../img/icon/bg.png) -39px -82px no-repeat;
+	float: left;
+    margin: 16px 12px 0 0;
+    width: 38px;
+    height: 38px;
+    overflow: hidden;
+}
+.qq:hover{
+	background-position: -39px -121px;
+}
+.zhifubao{
+	background: url(../img/icon/bg.png) -78px -82px no-repeat;
+	float: left;
+    margin: 16px 12px 0 0;
+    width: 38px;
+    height: 38px;
+    overflow: hidden;
+}
+.zhifubao:hover{
+	background-position: -78px -121px;
+}
+.baidu{
+	background: url(../img/icon/bg.png) -117px -82px no-repeat;
+	float: left;
+    margin: 16px 12px 0 0;
+    width: 38px;
+    height: 38px;
+    overflow: hidden;
+}
+.baidu:hover{
+	background-position: -117px -121px;
+}
+/*---------底部----------------*/
+.login_foot{
+	margin: 70px auto 0;
+	padding: 12px 0 25px;
+    border-top: 1px solid #dcdcdc;
+}
+.log_foot{
+	width: 990px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+.log_nav{
+	float: left;
+	margin: 0 0 0 -10px;
+    color: #ccc;
+}
+.log_nav a{
+	margin: 0 10px;
+    color: #666;
+}
+.log_nav a:hover{
+	text-decoration: underline;
+	color: #E02D2D;
+}
+.log_copy{
+	float: right;
+	color: #666;
+}
+/*-------------------------*/
+/*-------------------------*/
+/*-------------------------*/
+/*-------------------------*/
