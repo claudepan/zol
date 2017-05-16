@@ -50,3 +50,7 @@ a{
 	text-decoration: none;
 	color: #134ba0;
 }
+select, input, button {
+    vertical-align: middle;
+    font-size: 100%;
+}

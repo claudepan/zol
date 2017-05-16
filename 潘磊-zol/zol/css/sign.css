@@ -9,6 +9,14 @@
     width: 980px;
     margin: auto;
 }
+.sign_main:after {
+    content: ".";
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    font-size: 0;
+    }
 .sign_title{
 	padding: 16px 0 16px 90px;
     background: #fafafa;
@@ -53,10 +61,162 @@
 	vertical-align: middle;
 }
 /*--------------------*/
+/*--------------------*/
+.s_form{
+	float: right;
+    margin: 30px 0 0;
+    padding-left: 25px;
+    border-left: 1px solid #f5f5f5;
+    width: 500px;
+    
+}
+.sign_form{
+   	position: relative;
+    margin: 0 0 42px;
+    padding: 0 0 0 83px;
+    height: 40px;
+}
+.label{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 83px;
+    font: 14px/40px "Arial";
+    text-align: right;
+    color: #666;
+    display: block;
+} 
+.xh{
+	padding: 0 7px 0 0;
+    font-size: 12px;
+    font-family: "Simsun";
+    color: #f30;
+}
+.text{
+	border-color: rgb(204, 204, 204);
+	display: block;
+    margin: 0 10px 0 0;
+    padding: 8px 5px;
+    width: 278px;
+    height: 22px;
+    border: 1px solid #ccc;
+}
+.sign_wrong{
+	position: absolute;
+    top: 0;
+    left: 383px;
+    padding: 0 0 0 20px;
+    font: 12px/40px "Arial";
+    color: #ff3333;
+    white-space: nowrap;
+    display: none;
+}
+.tips{
+	position: absolute;
+    top: 47px;
+    left: 83px;
+    color: #aaa;
+    font-size: 12px;
+}
+.sign_yzm .text{
+	float: left;
+    width: 158px;
+}
+.yzm{
+	float: left;
+    margin: 0 10px 0 0;
+}
+.yzm img{
+	width: 98px;
+	height: 38px;
+	display: block;
+    border: 1px solid #ccc;
+    background: #E02D2D;
+}
+.change{
+	float: left;
+    font: 12px/40px "Arial";
+}
+.yzm_btn{
+	background: #f2f2f2;
+	float: left;
+    width: 110px;
+    height: 40px;
+    font: 12px/40px "Arial";
+    color: #666;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+/*----------------------------*/
+.agreement{
+	display: block;
+    padding: 0 0 0 83px;
+    height: 32px;
+    font: 12px/32px "Arial";
+    color: #999;
+}
+.sign_button{
+	display: block;
+    margin: 20px 0 0 83px;
+    width: 290px;
+    height: 40px;
+    font: bold 14px/40px "Arial";
+    color: #fff;
+    text-align: center;
+    border: 0 none;
+    background-position: 0 0;
+    cursor: pointer;
+    background: url(../img/icon/bg.png) no-repeat;
+}
+.sign_button:hover{
+	background-position:0px -40px;
+}
+/*----------------------------------*/
 .sign_right{
 	float: right;
     margin: 30px 0 0;
     padding: 0 80px 0 25px;
     width: 170px;
     border-left: 1px solid #f5f5f5;
+}
+.sign_right:after{
+    content: ".";
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+/*--------------------------*/
+.sign_right p{
+	margin: -6px 0 0;
+    font: 12px/24px "Arial";
+    color: #666;
+}
+.sign_list a{
+	display: block;
+    margin: 15px 0 0;
+    width: 170px;
+    height: 36px;
+    text-indent: -9999em;
+    overflow: hidden;
+    zoom: 1;
+}
+.s_weixin{
+	background: url(../img/icon/weixin.png);
+}
+.s_weibo{
+	background: url(../img/icon/login-bg.png) no-repeat 0 0px;
+}
+.s_qq{
+	background: url(../img/icon/login-bg.png) no-repeat 0 -36px;
+}
+.s_zhifubao{
+	background: url(../img/icon/login-bg.png) no-repeat 0 -74px;
+}
+.s_baidu{
+	background: url(../img/icon/login-bg.png) no-repeat 0 -111px;
+}
+.sign_list a:hover{
+	opacity: 0.8;
 }
