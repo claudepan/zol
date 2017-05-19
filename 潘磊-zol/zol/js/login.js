@@ -11,4 +11,18 @@ $("#log_un").blur(function(){
 $("#log_pw").blur(function(){
 	$(".log_password").css("border-color","#ccc")
 });
-//注册
+//登陆成功
+log_btn.onclick = function(){
+	var user = getCookie("user");
+	var o = JSON.parse(user);
+	
+	if(o.phone == log_un.value){
+		if(o.pass == log_pw.value){
+			location.href = "index.html";
+		}else{
+			$(".log_wrong").css("display","block")
+		}
+	}else{
+		$(".log_wrong").css("display","block")
+	}
+}

@@ -101,6 +101,16 @@
     height: 22px;
     border: 1px solid #ccc;
 }
+.sign_dui{
+	position: absolute;
+	top: 0;
+    left: 383px;
+    padding: 0 0 0 20px;
+    width: 40px;
+    height: 40px;
+    background: url(../img/icon/login-bg.png) no-repeat -155px -150px;
+	display: none;
+}
 .sign_wrong{
 	position: absolute;
     top: 0;
@@ -109,6 +119,7 @@
     font: 12px/40px "Arial";
     color: #ff3333;
     white-space: nowrap;
+    background: url(../img/icon/login-bg.png) no-repeat -155px -184px;
     display: none;
 }
 .tips{
@@ -125,13 +136,7 @@
 .yzm{
 	float: left;
     margin: 0 10px 0 0;
-}
-.yzm img{
-	width: 98px;
-	height: 38px;
-	display: block;
     border: 1px solid #ccc;
-    background: #E02D2D;
 }
 .change{
 	float: left;
@@ -220,3 +225,23 @@
 .sign_list a:hover{
 	opacity: 0.8;
 }
+/*--------------------------------*/
+  .code
+    {
+            font-family:Arial;
+            font-style:italic;
+             color:blue;
+             font-size:20px;
+             border:0;
+             padding:2px 3px;
+             letter-spacing:3px;
+             font-weight:bolder;             
+             float:left;            
+             cursor:pointer;
+             width:98px;
+             height:38px;
+             line-height:38px;
+             text-align:center;
+             vertical-align:middle;
+
+    }

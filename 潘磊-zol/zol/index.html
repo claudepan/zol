@@ -2,9 +2,123 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title></title>
+		<title>ZOL商城</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/index.css" />
 	</head>
 	<body>
-		
+		<!--页眉-->
+		<div class="zol_top0">
+			<div class="zol_top">
+				<div class="welcome">
+					<span class="zol_backhome">
+						<a href="index.html">商城首页</a>
+					</span>
+					<span class="zol_login">
+						Hi~欢迎来到ZOL商城，请<a href="login.html">登陆</a>
+					</span>
+					<span class="zol_register">
+						<a href="login.html">免费注册</a>
+					</span>
+				</div>
+				<ul class="zol_menu">
+						<li class="li1">
+							<a href="#">我的订单</a>
+						</li>
+						<li class="zol_mycenter">
+							<a href="#" class="zol_hd">
+								卖家中心
+								<i class="ico"></i>
+							</a>
+							<div class="zol_mycenterbd">
+								<a href="#">
+									我的优惠券&nbsp;&nbsp;
+									<em>8</em>
+								</a>
+								<a href="#">
+									关注的店铺&nbsp;&nbsp;
+									<em>30</em>
+								</a>
+								<a href="#">
+									关注的商品&nbsp;&nbsp;
+									<em>40</em>
+								</a>
+							</div>
+						</li>
+						<li class="li1">
+							<a href="cart.html">购物车</a>
+						</li>
+						<li class="li1">
+							<a href="http://help.zol.com">帮助中心</a>
+						</li>
+						<li class="shu">|</li>
+						<li class="zol_mobile">
+							<a href="#" class="zol_hd">
+								手机商城
+								<i class="ico"></i>
+							</a>
+							<div class="zol_mobilebd">
+								<img src="img/shop_wechat.png" style="width: 130px; height: 130px;"/>
+							</div>
+						</li>
+						<li class="li1">
+							<a href="#">中关村在线</a>
+						</li>
+						<li class="li1">
+							<a href="#">商家入驻</a>
+						</li>
+						<li class="lianxikefu">
+							<a href="#" class="zol_hd">
+								联系客服
+								<i class="ico"></i>
+							</a>
+							<div class="zol_lianxitel">
+								400-688-1999
+							</div>
+						</li>
+					</ul>
+			</div>
+		</div>
+		<!--logo、搜索、nav-->
+		<!--logo-->
+		<div class="header clearfix">
+			<div class="logo">
+				<h1>
+					<a href="index.html" class="mall_logo"></a>
+				</h1>
+				<!--地址-->
+				<div class="logo-right-box">
+					<div class="city-location">
+						<span class="city-name">
+							北京
+							<em class="icon"></em>
+						</span>
+						<ul class="city-list">
+							<li><a href="#">北京</a></li>
+							<li><a href="#">成都</a></li>
+							<li><a href="#">青岛</a></li>
+							<li><a href="#">沈阳</a></li>
+							<li><a href="#">西安</a></li>
+							<li><a href="#">长春</a></li>
+							<li><a href="#">郑州</a></li>
+							<li><a href="#">全国</a></li>
+						</ul>
+					</div>
+					<p class="explain"></p>
+				</div>
+			</div>
+			<!--搜索-->
+			<div class="search-box">
+				<div class="search">
+					<input name="keyword" type="text" class="search-text" >
+					<input type="submit" value="搜索" class="search-btn">
+				</div>
+			</div>
+			<div class="ad-div"></div>
+		</div>
 	</body>
 </html>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js" ></script>
+<script type="text/javascript" src="js/ajax.js" ></script>
+<script type="text/javascript" src="js/cookie.js" ></script>
+<script type="text/javascript" src="js/index.js" ></script>

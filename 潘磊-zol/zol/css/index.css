@@ -1,0 +1,256 @@
+/*------------top-------------*/
+.zol_top0{
+	position: relative;
+    z-index: 997;
+    height: 29px;
+    font: 12px/29px arial;
+    background: #f5f5f5;
+    border-bottom: 1px solid #e6e6e6;
+}
+.zol_top{
+	width: 1200px;
+    margin: 0 auto;
+}
+.welcome{
+	float: left;
+}
+.zol_backhome{
+	padding-right:20px;
+}    
+.zol_login{
+	padding: 0 20px 0 0;
+    color: #666;
+}
+/*-------------------------------*/
+.zol_menu{
+	float: right;
+    margin: 0 -10px 0 0;
+}
+.zol_menu li{
+	float: left;
+    margin: 0 10px;
+    height: 29px;
+    font: 12px/29px arial;
+}
+.zol_menu li a{
+	display: inline-block;
+    color: #666;
+}
+.zol_mycenter{
+	float: left;
+    height: 29px;
+    font: 12px/29px arial;
+	border-left:1px solid #f5f5f5;
+	border-right:1px solid #f5f5f5;
+}
+.zol_hd{
+	position: relative;
+    padding: 0 23px 0 10px;
+}
+.zol_mycenterbd{
+	display:none;
+	position: absolute;
+    top: 29px;
+    left: 641px;
+    padding: 3px 9px;
+    width: 88px;
+    border: 1px solid #ededed;
+    background: #fff;
+}
+.shu{
+	color:#ccc;
+}
+/*------------------------------*/
+.zol_mobile{
+	border-left:1px solid #f5f5f5;
+	border-right:1px solid #f5f5f5;
+}
+.zol_mobile .zol_hd{
+	padding: 0 23px 0 25px;
+    
+	position:relative;
+	background:url(../img/icon/topbar_ico.png) no-repeat;
+	background-position: 0 0;
+}
+.zol_mobilebd{
+	display:none;
+	position: absolute;
+    top: 29px;
+    left: 891px;
+    padding: 20px;
+    width: 130px;
+    height: 130px;
+    border: 1px solid #ededed;
+    background: #fff;
+}
+.ico{
+	position: absolute;
+    top: 13px;
+    right: 10px;
+    width: 7px;
+    height: 4px;
+    background: url(../img/icon/topbar_ico.png) no-repeat;
+    background-position: 0 -45px;
+}
+.lianxikefu{
+	border-left:1px solid #f5f5f5;
+	border-right:1px solid #f5f5f5;
+}
+.zol_lianxitel{
+	display: none;
+    position: absolute;
+    top: 29px;
+    right: 23px;
+    padding: 3px 9px;
+    width: 80px;
+    border: 1px solid #ededed;
+    font: 12px/28px arial;
+    text-align: right;
+    background: #fff;
+}
+/*---------------动态效果--------------------*/
+.zol_mycenter:hover .ico,.zol_mobile:hover .ico,.lianxikefu:hover .ico{
+	-webkit-backface-visibility: hidden;
+  border-color: #bbb transparent transparent;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  -moz-transition: -moz-transform 0.2s ease-in;
+  -o-transition: -o-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.zol_backhome a:hover,.zol_login a:hover,.zol_register:hover,.zol_menu .li1:hover a{
+	color:#c00;
+	text-decoration:underline;
+}
+.zol_mycenter:hover,.zol_mobile:hover,.lianxikefu:hover{
+	background:#fff;
+	border-left:1px solid #e6e6e6;
+	border-right:1px solid #e6e6e6;
+	
+}
+.zol_mycenter:hover .zol_mycenterbd{
+	display:block;
+}
+.zol_mobile:hover .zol_mobilebd{
+	display: block;
+}
+.lianxikefu:hover .zol_lianxitel{
+	display: block;
+}
+/*-----------------------logo处---------------------------*/
+.header{
+	margin: 0 auto;
+    padding: 25px 0 0;
+    width: 1200px;
+    height: 92px;
+}
+.clearfix:after{
+	content: ".";
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+/*---------------------logo---------------------*/
+.logo{
+	float: left;
+    padding: 5px 0 0;
+}
+.logo h1{
+	float: left;
+}
+.logo .mall_logo{
+	display: block;
+	width: 182px;
+	height: 60px;
+    background: url(../img/shop_182x60.png) no-repeat;
+}
+/*----------------城市地址------------------------*/
+.logo-right-box{
+	float: left;
+    height: 50px;
+    border-left: 1px solid #eee;
+    margin-left: 10px;
+}
+.city-location{
+	display: inline-block;
+    height: 35px;
+    margin: -8px 0 6px -1px;
+    position: relative;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 1px 1px 0 1px;
+}
+.city-name{
+	display: block;
+    padding: 0 32px 0 10px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    position: relative;
+    z-index: 5;
+    cursor: pointer;
+    border:1px solid #fff;
+}
+.city-name .icon{
+	position: absolute;
+    right: 8px;
+    top: 0;
+    width: 10px;
+    height: 34px;
+    background: url(../img/icon/city-icon.png) no-repeat left center;
+}
+.city-list{
+	display: none;
+    width: 180px;
+    padding: 8px 0;
+    position: absolute;
+    left: -1px;
+    top: 33px;
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+.city-list li{
+	float: left;
+    padding: 2px 10px;
+    height: 24px;
+    line-height: 24px;
+}
+.city-list li a{
+	display: inline-block;
+    color: #333;
+    padding: 0 8px;
+    font-size: 12px;
+}
+.explain{
+	margin-top: -10px;
+    height: 30px;
+    line-height: 14px;
+    font-size: 12px;
+    color: #666;
+    width: 150px;
+    padding-left: 12px;
+    background: url(../img/tc-logo.jpg) no-repeat 12px center;
+}
+.city-location:hover .city-list{
+	display: block;
+}
+.city-location:hover .city-name{
+	border:1px solid #eee;
+	border-bottom: none;
+}
+.city-list li:hover a{
+	color:#ce1a1b ;
+	background: #f4f4f4;
+}
+/*---------------搜素-------------------*/
+.search-box{
+	float: left;
+    padding: 12px 0 0 56px;
+}
