@@ -4,7 +4,9 @@
 		<meta charset="utf-8" />
 		<title>ZOL商城</title>
 		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/nivo-slider.css" />
 		<link rel="stylesheet" href="css/index.css" />
+		
 	</head>
 	<body>
 		<!--页眉-->
@@ -113,12 +115,141 @@
 					<input name="keyword" type="text" class="search-text" >
 					<input type="submit" value="搜索" class="search-btn">
 				</div>
+				<!--热词-->
+				<div class="hot-search">
+					<a href="#">小米</a>
+					<a href="#">乐视</a>
+					<a href="#">华为</a>
+					<a href="#">主机1199元抢</a>
+					<a href="#">超极本降1400元</a>
+					<a href="#">热销机械键盘</a>
+				</div>
 			</div>
-			<div class="ad-div"></div>
+			<div class="ad-div">
+				<a href="#">
+					<img src="img/zhuanzhushuma.jpg"/>
+				</a>
+			</div>
 		</div>
+		<!--导航-->
+		<div class="nav-box">
+			<ul class="nav clearfix">
+				<li><a href="index.html">首页</a></li>
+				<li><a href="#">团购</a></li>
+				<li><a href="#">ZOL智选</a></li>
+				<li><a href="#">DIY攒机馆</a></li>
+			</ul>
+			<div class="nav-tips">
+				<a href="#">荣耀8青春版、荣耀v9新品现货抢！</a>
+			</div>
+		</div>
+		<!--焦点内容-->
+		<div class="zol-main">
+			<div class="clearfix">
+				<!--右侧-->
+				<div class="main-right">
+					<div class="manual"><a href="#"><img src="img/chao7000.jpg"/></a></div>
+					<div class="manual"><a href="#"><img src="img/pro6s.jpg"/></a></div>
+				</div>
+				<!--左侧-->
+				<div class="main-left">
+					<div class="banner">
+						<div class="slider-wrapper">
+							<div id="slider" class="nivoSlider">
+								<img src="img/banner1.jpg"/>
+								<img src="img/banner3.jpg"/>
+								<img src="img/banner4.jpg"/>
+							</div>
+							</div>
+						</div>
+					</div>
+					<ul class="main-list clearfix">
+						<!--<li>
+							<h5 class="name">
+								<a href="#">联想小新Air Pro航海王版</a>
+							</h5>
+							<p class="price">赠键鼠劲爆5299元！</p>
+							<a href="#" class="pic">
+								<img src="img/air pro.jpg"/>
+							</a>
+						</li>-->
+					</ul>
+				</div>
+			<!--全国团购-->
+			<div class="tuangou">
+				<div class="tuangou-title">
+					<h2 class="title">全国团购</h2>
+					<p class="more">
+						<a href="#">魅族</a> | 
+						<a href="#">三星</a> |
+						<a href="#">苹果</a> |
+						<a href="#">华为</a>
+						<a href="#">更多团购</a>
+					</p>
+				</div>
+				<ul class="tuangou-list clearfix">
+					<li>
+						<a href="#">
+							<img src="img/tuangou1.jpg"/>
+						</a>
+						<div class="countdown">
+							<span>剩余时间：</span>
+							<b class="n1"></b>
+							<b class="n2"></b>
+							<span>时</span>
+							<b class="n3"></b>
+							<b class="n4"></b>
+							<span>分</span>
+							<b class="n5"></b>
+							<b class="n6"></b>
+							<span>秒</span>
+						</div>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/tuangou2.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/tuangou3.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/tuangou4.jpg"/>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
 	</body>
 </html>
-<script type="text/javascript" src="js/jquery-1.11.1.min.js" ></script>
+<script type="text/javascript" src="js/jquery-1.4.3.min.js" ></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js" ></script>
 <script type="text/javascript" src="js/ajax.js" ></script>
 <script type="text/javascript" src="js/cookie.js" ></script>
 <script type="text/javascript" src="js/index.js" ></script>
+<script type="text/javascript">
+    $(window).ready(function() {
+        $('#slider').nivoSlider({
+        	effect:"fold"
+        });
+    });
+    
+    var starttime = new Date("2017/5/20/09:00:00");
+    setInterval(function () {
+    var nowtime = new Date();
+    var time = starttime - nowtime;
+    var day = parseInt(time / 1000 / 60 / 60 / 24);
+    var hour = parseInt(time / 1000 / 60 / 60 % 24);
+    var minute = parseInt(time / 1000 / 60 % 60);
+    var seconds = parseInt(time / 1000 % 60);
+    $(".n1").text(hour);
+    $(".n3").text(minute);
+    $(".n5").text(seconds);
+  }, 1000);
+</script>
+
+	

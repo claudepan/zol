@@ -1,0 +1,9 @@
+{
+	"list":[
+		{"id":"1","title":"联想小新Air Pro航海王版","price":"赠键鼠劲爆5299元！","img":"air pro.jpg"},
+		{"id":"2","title":"乐目 沙狐V1","price":"下单立减300元","img":"shahu v1.jpg"},
+		{"id":"3","title":"影驰8G内存","price":"359元限时抢","img":"yingchi.jpg"},
+		{"id":"4","title":"索尼 Xperia XZs 双4G","price":"送移动电源+蓝牙耳机","img":"xzs.jpg"},
+		{"id":"5","title":"名龙堂DIY主机","price":"7代i7/GTX1060/120G固态","img":"minglongtang.jpg"}
+	]
+}

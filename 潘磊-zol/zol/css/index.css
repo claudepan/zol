@@ -254,3 +254,295 @@
 	float: left;
     padding: 12px 0 0 56px;
 }
+.search{
+	position: relative;
+    width: 536px;
+    height: 32px;
+    border: 2px solid #c40000;
+    z-index: 3;	
+}
+.search-text{
+	padding: 6px 10px;
+    width: 427px;
+    height: 20px;
+    font: 14px/20px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+    color: #666;
+    border: 0 none;
+    outline: 0 none;
+    vertical-align: middle;
+}
+.search-btn{
+	position: absolute;
+    top: 0;
+    right: 0;
+    width: 89px;
+    height: 32px;
+    font: 16px/32px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+    color: #fff;
+    border: 0 none;
+    background: #c40000;
+    cursor: pointer;
+    vertical-align: middle;
+}
+/*--------------------------------*/
+.hot-search{
+	padding: 7px 0 0;
+    font: 12px/18px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+}
+.hot-search a{
+	display: inline-block;
+    margin: 0 15px 0 0;
+    color: #999;
+}
+.ad-div{
+	float: right;
+    width: 180px;
+    height: 60px;
+    padding-top: 0;
+}
+.ad-div a img{
+	vertical-align: middle;
+}
+/*-------------------------------*/
+.nav-box{
+	width: 1200px;
+    padding-left: 0;
+	position: relative;
+    z-index: 2;
+    zoom: 1;
+    margin: 0 auto 10px;
+    border-bottom: 2px solid #ce1a1b;    
+}
+.nav li{
+    float: left;
+    padding: 0 20px;
+    height: 30px;
+    font: 16px/30px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";	
+}
+.nav li a{
+	color: #333333;
+}
+.nav li:hover a{
+	color: #CC0000;
+}
+.nav-tips{
+	position: absolute;
+    top: 0;
+    right: 0;
+    font: 16px/30px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+    color: #f33;
+}
+.nav-tips a{
+	color: #f33;
+}
+.nav-tips a:hover{
+	color: #C40000;
+}
+/*------------banner等-----------------*/
+.zol-main{
+	position: relative;
+	width: 1200px;
+    margin: 0 auto;
+}
+.main-right{
+	height: 443px;
+	width: 240px;
+	float: right;
+}
+.manual{
+	height: 221px;
+	width: 240px;
+	margin-bottom: 1px;
+}
+.manual a{
+	display: block;
+	height: 100%;
+}
+.manual a img{
+	height: 100%;
+	width: 100%;
+	border: 0;
+}
+/*---------------------------------------*/
+.banner{
+	width: 951px;
+	height: 290px;
+    position: relative;
+}
+.slider-wrapper{
+	width: 951px;
+	height: 290px;
+}
+.nivoSlider{
+	width: 951px;
+	height: 290px;
+	position: relative;
+}
+#slider .nivo-slice{
+	float: left;
+	height: 50px;
+}
+.nivo-prevNav{
+	
+	width: 39px;
+    height: 65px;
+    position: absolute;
+    top: 50%;
+    margin-top: -32px;
+    cursor: pointer;
+    text-indent: -9999px;
+    background: url(../img/arrows.png) no-repeat;
+    left: 0;
+    background-position: 0 0;
+}
+.nivo-prevNav:hover{
+	background-position: -41px 0;
+}
+.nivo-nextNav{
+	
+	width: 39px;
+    height: 65px;
+    position: absolute;
+    top: 50%;
+    margin-top: -32px;
+    cursor: pointer;
+    text-indent: -9999px;
+    background: url(../img/arrows.png) no-repeat;
+    right: 0;
+    background-position: 0 -69px;
+}
+.nivo-nextNav:hover{
+	background-position: -41px -69px;
+}
+.nivo-controlNav{
+	position: absolute;
+    left: 880px;
+    bottom: 10px;
+    width: 100%;
+    float: right;
+}
+/*----------------------------------*/
+
+.nivo-controlNav a{
+	margin: 0 2px;
+	float: left;
+    display: block;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-image:url(../img/focus-index.png);
+    background-position: 0 0;
+    cursor: pointer;
+}
+.nivo-controlNav .active{
+	background-position: 0 -20px;
+}
+/*---------------------------------------*/
+.main-list{
+	margin: -1px 0 0 1px;
+}
+.main-list li{
+	position: relative;
+	width: 174px;
+    height: 152px;
+    display: inline;
+    float: left;
+    padding-left: 15px;
+    border: 1px solid #e6e6e6;
+    text-align: right;
+    margin-left: -1px;
+}
+.name{
+	height: 24px;
+    line-height: 24px;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: left;
+    font-family: 'Microsoft YaHei';
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.price{
+	height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #d33f3f;
+    
+    text-align: left;
+    font-family: 'Microsoft YaHei';
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.pic{
+	position: absolute;
+	left: 65px;
+	display: inline-block;
+    width: 120px;
+    height: 90px;
+    transition: .5s all ease;
+    -webkit-transition: .5s all ease;
+}
+.pic img{
+	width: 120px;
+    height: 90px;
+    vertical-align: top;
+    border: 0;
+}
+.pic:hover {
+	left: 58px;
+}
+/*------------------------------------*/
+.tuangou{
+	margin-top: 12px;
+}
+.tuangou-title{
+	height: 44px;
+}
+.title{
+	float: left;
+    padding-left: 15px;
+    line-height: 44px;
+    font-size: 24px;
+    font-weight: normal;
+    background: url(../img/module-title.png) no-repeat left center;
+}
+.more{
+	float: right;
+    height: 34px;
+    line-height: 34px;
+    padding-top: 10px;
+    color: #d9d9d9;
+    margin-right: -10px;
+}
+.more a{
+	font-size: 12px;
+    color: #666;
+    margin: 0 15px;
+}
+/*--------*/
+.tuangou-list li{
+    float: left;
+    width: 298px;
+    height: 213px;
+    padding-bottom: 2px;
+    border: 1px solid #ededed;
+    margin-left: -1px;
+}
+.tuangou-list li a{
+	display: block;
+    width: 298px;
+    height: 179px;
+    border-bottom: 1px dashed #ededed;
+}
+.tuangou-list li a img{
+	vertical-align: middle;
+	border: 0;
+	width: 298px;
+	height: 180px;
+}
