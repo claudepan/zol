@@ -420,6 +420,7 @@
     bottom: 10px;
     width: 100%;
     float: right;
+    width: 100px;
 }
 /*----------------------------------*/
 
@@ -526,6 +527,10 @@
     margin: 0 15px;
 }
 /*--------*/
+.tuangou li:hover{
+	padding-bottom: 0;
+	border-bottom: 3px solid #ce1a1b;
+}
 .tuangou-list li{
     float: left;
     width: 298px;
@@ -534,6 +539,7 @@
     border: 1px solid #ededed;
     margin-left: -1px;
 }
+
 .tuangou-list li a{
 	display: block;
     width: 298px;
@@ -545,4 +551,309 @@
 	border: 0;
 	width: 298px;
 	height: 180px;
+}
+.countdown{
+    height: 32px;
+    line-height: 32px;
+    text-align: center;	
+}
+.countdown b{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: -3px;
+	background: url(../img/time.png) no-repeat center;
+	text-indent: -9999em;
+}
+.countdown span{ 
+	color:#999; 
+	padding:0 2px;
+}
+.countdown .n1{ background-position:0 0;}
+.countdown .n2{ background-position:0 -21px;}
+.countdown .n3{ background-position:0 -42px;}
+.countdown .n4{ background-position:0 -63px;}
+.countdown .n5{ background-position:0 -82px;}
+.countdown .n6{ background-position:0 -102px;}
+.countdown .n7{ background-position:0 -123px;}
+.countdown .n8{ background-position:0 -142px;}
+.countdown .n9{ background-position:0 -162px;}
+.countdown .n0{ background-position:0 -182px;}
+.countdown .n00{ background-position:0 -203px;}
+/*---------------------------------------------------*/
+.bendi{
+	margin-top: 12px;
+}
+.module-title{
+	height: 44px;
+}
+.rush-list li{
+	float: left;
+    width: 399px;
+    height: 210px;
+    padding-bottom: 2px;
+    border: 1px solid #ededed;
+    margin-left: -1px;
+    list-style: none;
+}
+.rush-list .bd-pic{
+	float: left;
+    width: 150px;
+    height: 150px;
+    margin: 20px 0 0 25px;
+}
+.rush-list .bd-pic img{
+	width: 150px;
+    height: 150px;
+    vertical-align: middle;	
+}
+.word{
+	margin: 19px 0 0 200px;
+}
+.rush-list .bd-title{
+	font-size: 16px;
+    line-height: 22px;
+    font-weight: normal;
+    height: 48px;
+    overflow: hidden;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.rush-list .bd-title a{
+	color: #000;
+}
+.rush-list .bd-price{
+	font-size: 14px;
+    color: #ce1a1b;
+    line-height: 34px;
+}
+.rush-list .bd-price span{
+	font-size: 20px;
+    line-height: 26px;
+}
+.bd-discount{
+	font-size: 12px;
+    color: #999;
+    text-decoration: line-through;
+    line-height: 22px;
+}
+.rush-list .operation{
+	margin-top: 25px;
+    height: 22px;
+}
+.rush-list .save{
+	float: left;
+	height: 20px;
+    line-height: 20px;
+    padding: 0 10px;
+    font-size: 12px;
+    color: #ce1a1b;
+    border: 1px solid #ce1a1b;
+}
+.rush-list .buy-btn{
+	float: left;
+	display: block;
+	width: 76px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background-color: #ce1a1b;
+}
+.rush-list li:hover{
+	padding-bottom: 0;
+	border-bottom: 3px solid #ce1a1b;
+}
+/*------------------------------------*/
+.mobile-region{
+	padding: 0 14px 14px;
+    border: 1px solid #ebebeb;
+}
+.mobile{
+	margin-top: 12px;
+}
+.mobile-head{
+	height: 40px;
+    padding: 10px 0;
+}
+.stores-logo{
+	float: left;
+}
+.stores-logo a{
+	margin-right: 10px;
+}
+.stores-logo a img{
+	height: 40px;
+	width: 160px;
+    vertical-align: middle;
+}
+.mobile-head .service-con{
+	float: right;
+    line-height: 40px;
+    font-size: 16px;
+    color: #333;
+}
+.service-con span{
+	display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    border: 1px solid #333;
+    font-size: 12px;
+    color: #333;
+    padding: 0 10px;
+    margin-right: 8px;
+}
+/*--------------------------*/
+.mobile-list{
+	margin-left: -5px;
+}
+.mobile-list .wide{
+	width: 464px;
+}
+.mobile-list li{
+	float: left;
+    height: 235px;
+    width: 348px;
+    margin-left: 5px;
+}
+.main-list img{
+	vertical-align: middle;
+}
+.mobilemin-list{
+	margin: 5px 0 0 -5px;
+}
+.mobilemin-list li{
+	float: left;
+    width: 230px;
+    height: 230px;
+    margin-left: 5px;
+}
+.mobilemin-list li img{
+	vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+.mobile-list li:hover{
+	opacity: 0.8;
+}	
+.mobilemin-list li:hover{
+	opacity: 0.8;
+}
+.brands-con{
+	padding: 3px 3px 3px 4px;
+    border: 1px solid #ededed;
+    margin-top: -1px;
+}
+.brands-con li{
+	float: left;
+    width: 118px;
+    height: 60px;
+    border: 1px solid transparent;
+    margin-left: -1px;
+}
+.brands-con li a img{
+	width: 118px;
+	height: 60px;
+}
+/*--------------------------------------*/
+.computer{
+	margin-top: 12px;
+}
+.computer-left{
+	float: left;
+    width: 360px;
+    height: 420px;
+    position: relative;
+}
+/*---------------------------------*/
+.computer-right{
+	float: right;
+    width: 840px;
+    height: 420px;
+    position: relative;
+}
+.waretype-tab{
+	position: absolute;
+    top: -34px;
+    left: 1px;
+}
+.waretype-tab li{
+	float: left;
+    width: 108px;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    padding-top: 1px;
+    margin-left: -1px;
+    border: 1px solid #ededed;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+}
+.waretype-tab li .cur{
+	padding-top: 0;
+    border-top: 2px solid #ce1a1b;
+    height: 33px;
+    border-bottom: 0 none;
+}
+/*------------------------------------*/
+.waretype-con{
+	width: 840px;
+    height: 420px;
+}
+.waretype-con .item{
+	width: 840px;
+	height: 420px;
+}
+.hot-region-left{
+	float: left;
+    width: 840px;
+    height: 420px;
+}
+.hot-refion-focus{
+    width: 838px;
+    height: 218px;
+    border: 1px solid #ededed;
+    overflow: hidden;
+    position: relative;
+}	
+.hot-region-ware{
+    margin: -1px 0 0 1px;	
+}
+.hot-region-ware li{
+	float: left;
+    width: 209px;
+    height: 199px;
+    border: 1px solid #ededed;
+    margin-left: -1px;
+}
+.hot-region-ware li a img{
+	width: 208px;
+	height: 199px;
+	border: 0;
+}
+.hot-region-ware .last{
+	width: 208px;
+}
+/*---------------------------------------*/
+#hot-focus .bx-pager{
+	position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+#hot-focus .bx-pager-item a{
+	width: 8px;
+    height: 8px;
+    line-height: 18px;
+    font-size: 0;
+    line-height: 0;
+    background: url(../img/hot-focus.png) no-repeat;
+    background-position: 0 0;
+}
+#hot-focus .bx-pager-item a.active{
+	background-position: 0 -10px;
 }

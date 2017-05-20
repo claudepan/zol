@@ -6,4 +6,9 @@
 		{"id":"4","title":"索尼 Xperia XZs 双4G","price":"送移动电源+蓝牙耳机","img":"xzs.jpg"},
 		{"id":"5","title":"名龙堂DIY主机","price":"7代i7/GTX1060/120G固态","img":"minglongtang.jpg"}
 	]
+	,"list1":[
+		{"id":"1","title":"小米 红米4X（3GB RAM/全网通） 黑色 行货32GB","price":"￥938","discount":"￥888","img":"xiaomi 4x.jpg"},
+		{"id":"2","title":"荣耀 Magic（全网通） 玄金黑 行货64GB","price":"￥3808","discount":"￥3758","img":"huawei magic.jpg"},
+		{"id":"3","title":"OPPO A57（全网通）3GB+32GB内存 双卡双待 前1600+后1300W像素","price":"￥1483","discount":"￥1388","img":"oppo a57.jpg"}
+	]
 }
