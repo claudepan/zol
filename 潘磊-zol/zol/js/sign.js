@@ -46,7 +46,8 @@ $("#sign_rpw").blur(function(){
 	}
 })
 //手机验证码倒计时
-$(".yzm_btn").click(function(){
+//$(".yzm_btn").click(function(){
+	
 		var countdown=60;		//修改倒计时时间
 		function settime(obj){
 	    	if(countdown == 0){
@@ -61,7 +62,7 @@ $(".yzm_btn").click(function(){
 	    }
 	    setTimeout(function(){settime(obj)},1000)
 	}
-})
+//})
 //验证码功能
 	var code;
     function createCode() {

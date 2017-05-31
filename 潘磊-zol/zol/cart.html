@@ -2,24 +2,381 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>1</title>
-		<link rel="stylesheet" href="css/jquery.bxslider.css" />
-		
+		<title>购物车</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/cart.css" />
+		<link rel="stylesheet" href="css/show.css" />
 		
 	</head>
 	<body>
-		<ul class="bxslider">
-			<li><img src="img/cbanner1.jpg"/></li>
-			<li><img src="img/cbanner2.jpg"/></li>
-			<li><img src="img/cbanner3.jpg"/></li>
-		</ul>
+		<!--页眉-->
+		<div class="zol_topbar0">
+			<div class="zol_topbar clearfix">
+				<div class="welcome">
+					<span class="zol_backhome">
+						<a href="index.html">商城首页</a>
+					</span>
+					<span class="zol_login">
+						<a href="login.html">登陆</a>
+					</span>
+					<span class="zol_register">
+						<a href="login.html">免费注册</a>
+					</span>
+				</div>
+				<ul class="zol_menu">
+						<li class="li1">
+							<a href="#">我的订单</a>
+						</li>
+						<li class="zol_mycenter">
+							<a href="#" class="zol_hd">
+								卖家中心
+								<i class="ico"></i>
+							</a>
+							<div class="zol_mycenterbd">
+								<a href="#">
+									我的优惠券&nbsp;&nbsp;
+									<em>8</em>
+								</a>
+								<a href="#">
+									关注的店铺&nbsp;&nbsp;
+									<em>30</em>
+								</a>
+								<a href="#">
+									关注的商品&nbsp;&nbsp;
+									<em>40</em>
+								</a>
+							</div>
+						</li>
+						<li class="li1">
+							<a href="cart.html">购物车</a>
+						</li>
+						<li class="li1">
+							<a href="http://help.zol.com">帮助中心</a>
+						</li>
+						<li class="shu">|</li>
+						<li class="zol_mobile">
+							<a href="#" class="zol_hd">
+								手机商城
+								<i class="ico"></i>
+							</a>
+							<div class="zol_mobilebd">
+								<img src="img/shop_wechat.png" style="width: 130px; height: 130px;"/>
+							</div>
+						</li>
+						<li class="li1">
+							<a href="#">中关村在线</a>
+						</li>
+						<li class="li1">
+							<a href="#">商家入驻</a>
+						</li>
+						<li class="lianxikefu">
+							<a href="#" class="zol_hd">
+								联系客服
+								<i class="ico"></i>
+							</a>
+							<div class="zol_lianxitel">
+								400-688-1999
+							</div>
+						</li>
+					</ul>
+			</div>
+		</div>
+		<!--用户您好-->
+		<div class="yhnh">
+			<a href="javascript:;">用户您好：ZOL商城服务热线现已更改为4006881999</a>
+		</div>
+		<!--logo、搜索-->
+		<!--logo-->
+		<div class="header clearfix">
+			<div class="logo">
+				
+					<a href="index.html" class="logo-title">
+						<img src="img/shop_212x40.jpg" alt="logo" style="width: 212px;height: 40px;"/>
+						<img src="img/logo-text.png" style="width: 165px;height: 40px;"/>
+					</a>
+				
+			</div>
+			<div class="flow-step">
+				<ul class="step">
+					<li class="s1">加入购物车</li>
+					<li class="s2">下订单</li>
+					<li class="s3">去付款</li>
+					<li class="s4">确认收货</li>
+					<li class="s5">评价</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="wrapper">
+				<div class="cart-state mt">
+					<p>购物车状态<em>(/30)</em></p>
+					<div class="total">
+						<input type="submit" class="submitCart" value="去结算"/>
+						<span>总计(不含运费)：<em>￥</em><em class="total-price1"></em></span>
+					</div>
+				</div>
+				<div class="order-table mt20">
+					<table width="100%" border="1">
+						<tbody>
+							
+							<tr>
+								<th class="th-1"></th>
+								<th class="th-2">所选商品</th>
+								<th class="th-3">单价</th>
+								<th class="th-4">数量</th>
+								<th class="th-5">优惠</th>
+								<th class="th-6">小计(元)</th>
+								<th class="th-7">操作</th>
+							</tr>
+							<!---->
+							
+						</tbody>
+					</table>
+					<div class="total-price">
+						商品总价
+						<span>(不含运费)</span>：
+						<em>￥</em>
+						<em class="total-cart-price"></em>
+					</div>
+					<div class="order-foot clearfix">
+						<label>
+							<a href="javascipt:;">批量删除</a>
+							<a href="index.html" class="go-shopping">继续购物</a>
+							<input type="submit" value="去结算" class="accounting-btn" />
+						</label>
+					</div>
+				</div>
+			</div>
+		<div class="wrapper">
+			<div class="modgoods mt20">
+				<ul class="modgoods-tab clearfix">
+					<li class="cur">
+						猜你喜欢
+					</li>
+				</ul>
+				<div class="modgoods-tabbox">
+					<ul class="modgoods-list clearfix" style="display: block;"> 
+						<li>
+							<a href="#" class="a-pic">
+								<img src="img/meitu m8.jpg" style="width: 160px;height: 120px;"/>
+								<span>美图 M8(AMOLED版/全网通)</span>
+							</a>
+							<div class="price">￥3299.00</div>
+						</li>
+						<li>
+							<a href="#" class="a-pic">
+								<img src="img/meitu m8.jpg" style="width: 160px;height: 120px;"/>
+								<span>美图 M8(AMOLED版/全网通)</span>
+							</a>
+							<div class="price">￥3299.00</div>
+						</li>
+						<li>
+							<a href="#" class="a-pic">
+								<img src="img/meitu m8.jpg" style="width: 160px;height: 120px;"/>
+								<span>美图 M8(AMOLED版/全网通)</span>
+							</a>
+							<div class="price">￥3299.00</div>
+						</li>
+						<li>
+							<a href="#" class="a-pic">
+								<img src="img/meitu m8.jpg" style="width: 160px;height: 120px;"/>
+								<span>美图 M8(AMOLED版/全网通)</span>
+							</a>
+							<div class="price">￥3299.00</div>
+						</li>
+						<li>
+							<a href="#" class="a-pic">
+								<img src="img/meitu m8.jpg" style="width: 160px;height: 120px;"/>
+								<span>美图 M8(AMOLED版/全网通)</span>
+							</a>
+							<div class="price">￥3299.00</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
-		<script type="text/javascript" src="js/jquery-1.4.3.min.js" ></script>
-		<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
-		<script type="text/javascript" src="js/jquery.bxslider.min.js" ></script>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript" src="js/cookie.js" ></script>
 <script>
-	$(function(){ 
-    $('.bxslider').bxSlider(); 
-});
+    var goods = getCookie("goods");
+   	var g = JSON.parse(goods);
+   	
+   	var tbody = document.getElementsByTagName("tbody")[0];
+   	var order = document.createElement("tr");
+   	tbody.appendChild(order);
+   	order.className = "goods-order";
+   	
+   	var infor = document.createElement("td");
+   	order.appendChild(infor);
+   	infor.className = "s-infor";
+   	infor.colSpan = 2;
+   	
+   	var diiv = document.createElement("div");
+   	infor.appendChild(diiv);
+   	diiv.className = "diiv";
+   	
+   	var input1 = document.createElement("input");
+   	diiv.appendChild(input1);
+   	input1.type = "checkbox";
+   	input1.checked = "checked";
+   	
+   	var a1 =document.createElement("a");
+   	diiv.appendChild(a1);
+   	a1.className = "g-pic";
+   	a1.href = "show.html";
+   	
+   	var img1 = document.createElement("img");
+   	a1.appendChild(img1);
+   	img1.src = g.img;
+   	
+   	var inforbox = document.createElement("div");
+   	diiv.appendChild(inforbox);
+   	inforbox.className = "inforbox";
+   	
+   	var tit = document.createElement("h3");
+   	inforbox.appendChild(tit);
+   	tit.className = "tit";
+   	
+   	var a2 = document.createElement("a");
+   	tit.appendChild(a2);
+   	a2.innerHTML = g.name;
+   	a2.href = "show.html";
+   	
+   	var div = document.createElement("div");
+   	inforbox .appendChild(div);
+   	div.className = "security clearfix";
+   	
+   	var a3 = document.createElement("a");
+   	div.appendChild(a3);
+   	a3.className = "security-a";
+   	
+   	var p1 = document.createElement("p");
+   	inforbox.appendChild(p1);
+   	p1.innerHTML = "颜色："+g.color;
+   	
+   	var div2 = document.createElement("div");
+   	inforbox.appendChild(div2);
+   	div2.className = "info-con";
+   	
+   	var span = document.createElement("span");
+   	div2.appendChild(span);
+   	span.innerHTML = "套装："+g.taocan;
+   	
+   	
+   	//------------------------------------
+   	var price = document.createElement("td");
+   	order.appendChild(price);
+   	price.className = "s-price";
+   	
+   	var em = document.createElement("em");
+   	price.appendChild(em);
+   	em.innerHTML = g.price;
+   	
+   	
+   	//------------------------------------
+   	var amount = document.createElement("td");
+   	order.appendChild(amount);
+   	amount.className = "s-amount";
+   	
+   	var div3 = document.createElement("div");
+   	amount.appendChild(div3);
+   	div3.className = "buy-num";
+   	
+   	var jian = document.createElement("a");
+   	div3.appendChild(jian);
+   	jian.className = "minus";
+   	jian.innerHTML = "-";
+   	
+   	var shu = document.createElement("input");
+   	div3.appendChild(shu);
+   	shu.type = "text";
+   	shu.value = g.num;
+   	shu.className = "text-amount";
+   	
+   	var add = document.createElement("a");
+   	div3.appendChild(add);
+   	add.className = "plus";
+   	add.innerHTML = "+";
+   	
+   	//------------------------------------
+   	var agio = document.createElement("td");
+   	order.appendChild(agio);
+   	agio.className = "s-agio";
+   	
+   	var div4 = document.createElement("div");
+   	agio.appendChild(div4);
+   	div4.innerHTML = "--" ;
+   	
+   	//------------------------------------
+   	var total = document.createElement("td");
+   	order.appendChild(total);
+   	total.className = "s-total";
+   	
+   	var tt = document.createElement("em");
+   	total.appendChild(tt);
+   	tt.innerHTML = parseInt(g.price)*parseInt(g.num);
+   	
+   	//------------------------------------
+   	var del = document.createElement("td");
+   	order.appendChild(del);
+   	del.className = "s-del";
+   	
+   	var div5 = document.createElement("div");
+   	del.appendChild(div5);
+   	div5.className = "s-delbox";
+   	
+   	var a4 = document.createElement("a");
+   	div5.appendChild(a4);
+   	a4.innerHTML = "移入收藏夹";
+   	
+   	var a5 = document.createElement("a");
+   	div5.appendChild(a5);
+   	a5.innerHTML = "删除";
+   	a5.className = "shan";
+//--------------------------------------------------
+$(document).ready(function(){
+		//加的效果
+		$(".plus").click(function(){
+			var n=$(this).prev().val();
+			var num=parseInt(n)+1;
+			if(num==0){ return;}
+			$(this).prev().val(num);
+			var num = document.getElementsByClassName("text-amount")[0].value;
+   			tt.innerHTML = parseInt(num)*(g.price*1)+".00";
+   			$(".total-cart-price").html(parseInt(num)*(g.price*1)+".00");
+   			$(".total-price1").html(parseInt(num)*(g.price*1)+".00");
+		});
+		//减的效果
+		$(".minus").click(function(){
+			var n=$(this).next().val();
+			var num=parseInt(n)-1;
+			if(num==0){ return}
+			$(this).next().val(num);
+			var num = document.getElementsByClassName("text-amount")[0].value;
+   			tt.innerHTML = parseInt(num)*(g.price*1)+".00";
+   			$(".total-cart-price").html(parseInt(num)*(g.price*1)+".00");
+   			$(".total-price1").html(parseInt(num)*(g.price*1)+".00");
+			});
+	})
+//-----------------------------------------------------
+$(".total-cart-price").html(parseInt(g.price)*parseInt(g.num));
+$(".total-price1").html(parseInt(g.price)*parseInt(g.num));    	
+
+	
+</script>
+<script type="text/javascript">
+	//console.log(order);
+	var shan = document.getElementsByClassName("shan")[0];
+		 shan.index = order;
+	
+	shan.onclick = function(){
+		console.log(document.cookie);
+    	tbody.removeChild(this.index);
+    	setCookie("goods","",-1);
+    	console.log(document.cookie);
+    	
+    }
 </script>

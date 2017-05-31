@@ -7,8 +7,35 @@
 		{"id":"5","title":"名龙堂DIY主机","price":"7代i7/GTX1060/120G固态","img":"minglongtang.jpg"}
 	]
 	,"list1":[
-		{"id":"1","title":"小米 红米4X（3GB RAM/全网通） 黑色 行货32GB","price":"￥938","discount":"￥888","img":"xiaomi 4x.jpg"},
-		{"id":"2","title":"荣耀 Magic（全网通） 玄金黑 行货64GB","price":"￥3808","discount":"￥3758","img":"huawei magic.jpg"},
-		{"id":"3","title":"OPPO A57（全网通）3GB+32GB内存 双卡双待 前1600+后1300W像素","price":"￥1483","discount":"￥1388","img":"oppo a57.jpg"}
+		{"id":"6","title":"小米 红米4X（3GB RAM/全网通） 黑色 行货32GB","price":"￥938","discount":"￥888","img":"xiaomi 4x.jpg"},
+		{"id":"7","title":"荣耀 Magic（全网通） 玄金黑 行货64GB","price":"￥3808","discount":"￥3758","img":"huawei magic.jpg"},
+		{"id":"8","title":"OPPO A57（全网通）3GB+32GB内存 双卡双待 前1600+后1300W像素","price":"￥1483","discount":"￥1388","img":"oppo a57.jpg"}
+	]
+	,"list2":[
+		{"id":"9","title":"【官方授权 顺丰包邮】ThinkPad T560（20FHA00ECD）15.6英寸商务本 酷睿i5-6200U 4GB 256GB固态 GT940MX-2G 预装Windows 10","price":"7719.00","img":"t560.jpg"},
+		{"id":"10","title":"【送六件套】神舟 战神K650D-SL5D1 (i5/GTX950M)","price":"4099.00","img":"k650d.jpg"},
+		{"id":"11","title":"特惠豪华套餐-期待您的选购! 套餐图文详情请见下方商品详情！","price":"99.00","img":"tc.jpg"},
+		{"id":"12","title":"【官方授权 顺丰包邮】联想 YOGA A12（Android）12.2英寸时尚翻转触控本 Atom X5 Z8500 2G 32G 1280x800分辨率 Android系统","price":"2276.00","img":"a12.png"},
+		{"id":"13","title":"惠普 14g-ad003TX（M9U85PA）","price":"2987.00","img":"hp14g.jpg"},
+		{"id":"14","title":"【顺丰包邮】戴尔 14 5000系列 5468（VOSTRO 14-5468D-1605G）14英寸笔记本电脑(i5-7200U 4G 256G SSD 高分屏 Win10)","price":"4469.00","img":"5468.png"},
+		{"id":"15","title":"【顺丰包邮】戴尔 燃7000（Ins14-7460-D1525P）14.0英寸微边框笔记本电脑(i5-7200U 4GB 128GSSD+500G 2G独显 FHD屏 Win10)元気粉","price":"4998.00","img":"7000.png"},
+		{"id":"16","title":"（北京微软·授权代理）微软 Surface Book（i5/8GB/256GB/独显）","price":"10768.00","img":"surface book.jpg"}
+	]
+	,"list3":[
+		{"id":"17","title":"【下单送高清膜+顺丰包邮】苹果 iPad Air 2 平板电脑 9.7英寸（64G WLAN版/A8X 芯片/Retina显示屏/TouCH ID技术 ）","price":"3348.00","img":"ipad.png"},
+		{"id":"18","title":"【顺丰包邮】戴尔 Venue 10 7000（WiFi版） 10.5英吋娱乐商务平板 （Z3580 四核心 2G 16G 2560x1600 IPS屏 ）","price":"3790.00","img":"dell v10.png"},
+		{"id":"19","title":"【顺丰包邮】戴尔 Venue 10 Pro 5000 10.1英吋平板电脑 （Z3735F 2GB 64GB IPS WIFI 蓝牙 Win8.1)黑 四核，2G内存，全高清大屏W","price":"2999.00","img":"v10pro.png"},
+		{"id":"20","title":"【三星授权专卖 顺丰包邮 赠屏幕贴膜】三星 GALAXY Tab A 8.0（P350）（4核处理器+1.2GHz 16G 双频WiFi Spen笔 8英寸）","price":"1999.00","img":"tab8.jpg"},
+		{"id":"21","title":"华为(HUAWEI)M3 8.4英寸 平板电脑(2560x1600 麒麟950 哈曼卡顿音效 4G/128G AKG耳机 WiFi)日晖金惠普 14g-ad003TX（M9U85PA）","price":"2688.00","img":"m3.jpg"},
+		{"id":"22","title":"联想 Miix 310（4GB/64GB）PC平板二合一 四核处理器 标配4G内存 64G存储容量 带键盘 便携出差专用","price":"2399.00","img":"mix310.jpg"},
+		{"id":"23","title":"【顺丰包邮 现货】小米平板3 WIFI版 7.9英寸（ 4G/64G 500W/1300W ）","price":"1587.00","img":"mi3.jpg"},
+		{"id":"24","title":"【顺丰包邮】苹果 9.7英寸iPad Pro（128GB/WiFi版）平板电脑国行原封","price":"4688.00","img":"ipadpro.jpg"}
+	]
+	,"list4":[
+		{"id":"25","title":"联想小新Air 13 Pro版 i5-7200U 8G 256G 13.3英寸轻薄笔记本电脑","price":"￥5399","img":"xiaoxin air13.jpg"},
+		{"id":"26","title":"【新品现货】魅族 魅蓝Note5（全网通）5.5寸屏幕，16G/32G","price":"￥1009","img":"meizhu note5.jpg"},
+		{"id":"27","title":"索尼（SONY） FDR-AX40 4K 高清数码摄像机（内置64G内存） 黑色","price":"￥5600","img":"sony ax40.jpg"},
+		{"id":"28","title":"魅族 魅蓝Note3 全网通 2GB+16GB内存 双卡双待 500+1300万像素","price":"￥799","img":"meizhu note3.jpg"},
+		{"id":"29","title":"【顺丰包邮 送壳膜】魅族 魅蓝5s 全网通 移动联通电信4G手机","price":"￥764","img":"meizhu 5s.jpg"}
 	]
 }

@@ -49,6 +49,7 @@ table {
 a{
 	text-decoration: none;
 	color: #134ba0;
+	cursor: pointer;
 }
 select, input, button {
     vertical-align: middle;
